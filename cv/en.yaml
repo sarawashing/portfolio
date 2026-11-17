@@ -34,6 +34,33 @@ stats:
     label: automated tests behind Mika's Headquarters
   - value: "0"
     label: ports open to the outside
+services_title: Services
+services_note: Scope and timing are agreed after you describe the task. I take
+  only what I have already done myself.
+services_cta: Describe your task
+services:
+  - title: Telegram bots and an AI lead manager
+    text: The bot talks to a client, collects the request and hands it to a person.
+      It runs unattended and restarts itself if the process dies.
+    proof: My lead manager is covered by 153 automated tests.
+  - title: Websites, end to end
+    text: A landing page, storefront or user dashboard. Design, layout, two
+      languages, publishing online.
+    proof: "Examples: a studio site, a prop platform storefront, this portfolio."
+  - title: Speech recognition and voice
+    text: Transcripts of meetings, lessons and voice messages, voice features for a
+      bot.
+    proof: Runs on my own hardware, no paid APIs.
+  - title: Search over company knowledge
+    text: The agent finds what it needs in your documents and chats instead of
+      making an answer up.
+    proof: "Built on my Mycelium: semantic and full-text search over the shared
+      memory of my projects."
+  - title: Security check for AI bots
+    text: I attack your bot the way an intruder would, trying to swap its
+      instructions and pull out hidden text. I show where it breaks.
+    proof: The method is worked out on my own systems, where the defence is tested
+      daily.
 achievements:
   - "Mika — an AI general director: with one sentence she takes 5–10 working
     agent sessions under management, assigns work from the specification,
