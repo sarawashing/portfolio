@@ -14,18 +14,18 @@ tagline: Websites · Telegram Bots · Scrapers · AI Automation
 orbit:
   - Python
   - Next.js
-  - Astro
+  - TypeScript
   - FastAPI
   - Telegram
   - LLM
-  - SQLite
-  - Playwright
+  - SQL
+  - API
   - Docker
-  - FFmpeg
+  - Cloud
 stats:
   - value: 1–3 days
     label: MVP delivery for a site, bot, or scraper
-  - value: 153+
+  - value: 150+
     label: automated tests on core modules
   - value: 24/7
     label: unattended operation with self-healing
@@ -37,54 +37,48 @@ services_note: Scope, timeline, and budget are agreed upfront after a short
 services_cta: Discuss a project
 services:
   - title: Websites & Landing Pages
-    text: High-converting landing pages, storefronts, and user dashboards (Next.js,
-      Astro, Tilda). Responsive layout, fast loading, Telegram lead forms.
-    proof: "Timeline: 1–3 days for a landing page. See Projects for architecture &
-      UI scope."
+    text: High-converting landing pages, storefronts, and user dashboards.
+      Mobile-first responsive layout, fast loading, Telegram lead forms.
+    proof: "Timeline: 1–3 days for a landing page. See Projects for UI and
+      architecture scope."
   - title: Telegram Bots & AI Assistants
     text: Lead-capture bots, booking flows, digital delivery, and customer support
-      powered by ChatGPT/Claude/Gemini with payment integration (Stars, cards,
-      crypto).
+      powered by LLMs with payment integration (Stars, cards, crypto).
     proof: Production-grade bots covered by automated tests and auto-restart
       watchdogs.
   - title: Web Scrapers & Workflow Automation
-    text: Data extraction from any website (including anti-bot protected ones),
-      price/channel monitoring, and export to Google Sheets, SQLite, CRM, or
-      Telegram.
-    proof: Built with Playwright, Camoufox, Scrapling, and REST APIs.
-  - title: Company Knowledge Search (RAG)
+    text: Data extraction from complex websites, price/channel monitoring, and clean
+      export to Google Sheets, Excel, CRM, or Telegram.
+    proof: Structured, reliable data on schedule or on demand.
+  - title: Company Knowledge Search
     text: AI assistant that answers strictly from your internal docs, SOPs, and chat
       history without hallucinating.
-    proof: Full-text and semantic search powered by SQLite FTS5 and embeddings.
+    proof: Fast full-text and semantic search over your internal materials.
   - title: Transcription & Voice Bots
     text: Accurate speech-to-text for meetings, video lessons, and voice messages
-      with timestamps, plus voice bot flows and Gemini TTS voiceovers.
-    proof: Transcription runs locally on faster-whisper with zero per-minute API fees.
+      with timestamps, plus voice features for bots.
+    proof: Clean structured transcripts and seamless CRM/bot integration.
 achievements:
-  - "Web platforms & storefronts end to end: Next.js & Astro apps (18 frontend
-    pages, 16 API routes, responsive UI, EN/RU)"
+  - "Web platforms & storefronts end to end: responsive apps and dashboards (18
+    frontend pages, 16 API routes, EN/RU)"
   - "Autonomous AI lead manager in Telegram: monitors target channels, runs
-    qualification dialogue, hands warm leads to a human; 153 automated tests"
-  - "Payment & API gateway backends on FastAPI: card, SBP, and crypto payments,
-    user dashboards, TOTP 2FA, rate-limited API keys, and HMAC webhook
-    verification"
+    qualification dialogue, hands warm leads to a human"
+  - "Payment & API gateway backends: card, SBP, and crypto payments, user
+    dashboards, 2FA, rate-limited API keys, and webhook verification"
   - "Scrapers & knowledge bases: automated collection and indexing of thousands
-    of posts and articles (SQLite FTS5 + vector search) past anti-bot
-    protection"
-  - "Voice & media automation: on-device speech-to-text (faster-whisper),
-    multi-model TTS cascade, and automated FFmpeg video editing with dynamic
-    subtitles"
-  - "AI security testing: red-team evaluation of LLM assistants against prompt
-    injection and system-prompt leaks (360 of 360 hold-out attacks blocked)"
-  - "Resilient 24/7 infrastructure: encrypted server tunnels, health monitoring,
-    and automatic process recovery in ~30 seconds"
+    of posts and articles with instant search"
+  - "Voice & media automation: speech-to-text transcription, voice synthesis,
+    and batch short-form video editing with dynamic subtitles"
+  - "AI security testing: evaluation of LLM assistants against prompt injection
+    and system-prompt leaks"
+  - "Resilient 24/7 infrastructure: health monitoring and automatic process
+    recovery in ~30 seconds"
 skills:
   - group: Web & UI Development
     items:
       - landing pages
       - storefronts
-      - Next.js 14
-      - Astro
+      - Next.js
       - React
       - TypeScript
       - Tailwind CSS
@@ -94,40 +88,33 @@ skills:
       - SEO
   - group: Telegram Bots & Scraping
     items:
-      - aiogram
       - Telegram Bot API
       - payments (Stars / Crypto / Cards)
       - dialogue funnels
-      - Playwright
-      - Camoufox
-      - Scrapling
+      - web scraping
+      - browser automation
       - Google Sheets / CRM export
-  - group: AI & Knowledge Bases (RAG)
+  - group: AI & Knowledge Bases
     items:
-      - OpenAI / Claude / Gemini API
-      - model routing
-      - document RAG
-      - SQLite FTS5
-      - vector search
-      - evaluation
+      - LLM APIs
+      - conversational agents
+      - document search
+      - quality evaluation
       - prompt-injection defence
   - group: Backend & Payments
     items:
-      - Python 3.14
+      - Python
       - FastAPI
       - asyncio
-      - httpx
-      - SSE streaming
-      - SQLite WAL
-      - PostgreSQL
-      - HMAC webhooks
+      - REST API
+      - SQL
+      - webhooks
       - user dashboards
       - 2FA
   - group: Voice & Video
     items:
-      - faster-whisper
-      - TTS synthesis
-      - FFmpeg
+      - speech transcription
+      - voice synthesis
       - dynamic subtitles
       - Reels/Shorts automation
       - batch media processing
@@ -135,23 +122,22 @@ skills:
     items:
       - Windows Server
       - Linux
-      - SSH tunnels
+      - server setup
       - self-healing services
-      - pytest
-      - GitHub Pages
-      - automated backups
+      - automated tests
+      - backups
 experience:
   - company: Websites & Web Platforms
     role: Full-Stack Developer
     period: "2026"
     description:
-      - Designed and built a full-stack web platform on Next.js 14 + TypeScript
-        (18 pages, 16 API routes, user dashboard, and admin panel)
-      - Build fast landing pages and storefronts on Astro, Next.js, and Tilda
-        with bilingual support (EN/RU), animations, and Telegram lead forms
+      - Designed and built a full-stack web platform (18 pages, 16 API routes,
+        user dashboard, and admin panel)
+      - Build fast landing pages and storefronts with bilingual support (EN/RU),
+        animations, and Telegram lead forms
     stack:
-      - Next.js 14
-      - Astro
+      - Next.js
+      - React
       - TypeScript
       - Tailwind CSS
       - FastAPI
@@ -160,31 +146,28 @@ experience:
     period: "2026"
     description:
       - "Built an autonomous AI lead manager: channel monitoring, relevance
-        filtering, qualification dialogue, 153 automated tests"
-      - Implemented anti-bot scrapers (Playwright, Camoufox, Scrapling) and
-        instant full-text search bases over thousands of documents (SQLite FTS5)
-      - "Built voice bots and media pipelines: speech recognition
-        (faster-whisper), TTS voiceovers, and automated FFmpeg editing with
-        subtitles"
+        filtering, qualification dialogue, 150+ automated tests"
+      - Implemented scrapers for complex websites and instant search bases over
+        thousands of documents
+      - "Built voice bots and media pipelines: speech transcription, voiceovers,
+        and batch editing with subtitles"
     stack:
       - Python
       - FastAPI
       - Telegram Bot API
-      - Playwright
-      - SQLite FTS5
-      - FFmpeg
+      - SQL
+      - REST API
   - company: Payment Gateways & Infrastructure
     role: Backend Developer
     period: "2026"
     description:
-      - Built a FastAPI gateway backend with user dashboard, TOTP 2FA, API keys,
-        balance accounting, and payment webhooks (HMAC-SHA256)
+      - Built a payment backend with user dashboard, 2FA, API keys, balance
+        accounting, and webhook verification
       - Configured resilient server infrastructure with ~30s auto-recovery and
-        prompt-injection protection for AI assistants
+        protection for AI assistants
     stack:
+      - Python
       - FastAPI
-      - httpx
-      - SQLite WAL
-      - HMAC-SHA256
-      - TOTP
-      - SSH
+      - SQL
+      - REST API
+      - Linux

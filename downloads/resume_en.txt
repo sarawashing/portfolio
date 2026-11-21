@@ -11,42 +11,42 @@ Message on Telegram
 ────────────────────────────────────────────────────────────
 KEY ACHIEVEMENTS
 ────────────────────────────────────────────────────────────
-• Web platforms & storefronts end to end: Next.js & Astro apps (18 frontend pages, 16 API routes, responsive UI, EN/RU)
-• Autonomous AI lead manager in Telegram: monitors target channels, runs qualification dialogue, hands warm leads to a human; 153 automated tests
-• Payment & API gateway backends on FastAPI: card, SBP, and crypto payments, user dashboards, TOTP 2FA, rate-limited API keys, and HMAC webhook verification
-• Scrapers & knowledge bases: automated collection and indexing of thousands of posts and articles (SQLite FTS5 + vector search) past anti-bot protection
-• Voice & media automation: on-device speech-to-text (faster-whisper), multi-model TTS cascade, and automated FFmpeg video editing with dynamic subtitles
-• AI security testing: red-team evaluation of LLM assistants against prompt injection and system-prompt leaks (360 of 360 hold-out attacks blocked)
-• Resilient 24/7 infrastructure: encrypted server tunnels, health monitoring, and automatic process recovery in ~30 seconds
+• Web platforms & storefronts end to end: responsive apps and dashboards (18 frontend pages, 16 API routes, EN/RU)
+• Autonomous AI lead manager in Telegram: monitors target channels, runs qualification dialogue, hands warm leads to a human
+• Payment & API gateway backends: card, SBP, and crypto payments, user dashboards, 2FA, rate-limited API keys, and webhook verification
+• Scrapers & knowledge bases: automated collection and indexing of thousands of posts and articles with instant search
+• Voice & media automation: speech-to-text transcription, voice synthesis, and batch short-form video editing with dynamic subtitles
+• AI security testing: evaluation of LLM assistants against prompt injection and system-prompt leaks
+• Resilient 24/7 infrastructure: health monitoring and automatic process recovery in ~30 seconds
 
 ────────────────────────────────────────────────────────────
 SKILLS
 ────────────────────────────────────────────────────────────
-Web & UI Development: landing pages, storefronts, Next.js 14, Astro, React, TypeScript, Tailwind CSS, Tilda, responsive UI, EN/RU localization, SEO
-Telegram Bots & Scraping: aiogram, Telegram Bot API, payments (Stars / Crypto / Cards), dialogue funnels, Playwright, Camoufox, Scrapling, Google Sheets / CRM export
-AI & Knowledge Bases (RAG): OpenAI / Claude / Gemini API, model routing, document RAG, SQLite FTS5, vector search, evaluation, prompt-injection defence
-Backend & Payments: Python 3.14, FastAPI, asyncio, httpx, SSE streaming, SQLite WAL, PostgreSQL, HMAC webhooks, user dashboards, 2FA
-Voice & Video: faster-whisper, TTS synthesis, FFmpeg, dynamic subtitles, Reels/Shorts automation, batch media processing
-DevOps & Reliability: Windows Server, Linux, SSH tunnels, self-healing services, pytest, GitHub Pages, automated backups
+Web & UI Development: landing pages, storefronts, Next.js, React, TypeScript, Tailwind CSS, Tilda, responsive UI, EN/RU localization, SEO
+Telegram Bots & Scraping: Telegram Bot API, payments (Stars / Crypto / Cards), dialogue funnels, web scraping, browser automation, Google Sheets / CRM export
+AI & Knowledge Bases: LLM APIs, conversational agents, document search, quality evaluation, prompt-injection defence
+Backend & Payments: Python, FastAPI, asyncio, REST API, SQL, webhooks, user dashboards, 2FA
+Voice & Video: speech transcription, voice synthesis, dynamic subtitles, Reels/Shorts automation, batch media processing
+DevOps & Reliability: Windows Server, Linux, server setup, self-healing services, automated tests, backups
 
 ────────────────────────────────────────────────────────────
 EXPERIENCE
 ────────────────────────────────────────────────────────────
 Websites & Web Platforms — Full-Stack Developer
 2026
-  • Designed and built a full-stack web platform on Next.js 14 + TypeScript (18 pages, 16 API routes, user dashboard, and admin panel)
-  • Build fast landing pages and storefronts on Astro, Next.js, and Tilda with bilingual support (EN/RU), animations, and Telegram lead forms
-  Next.js 14, Astro, TypeScript, Tailwind CSS, FastAPI
+  • Designed and built a full-stack web platform (18 pages, 16 API routes, user dashboard, and admin panel)
+  • Build fast landing pages and storefronts with bilingual support (EN/RU), animations, and Telegram lead forms
+  Next.js, React, TypeScript, Tailwind CSS, FastAPI
 
 Telegram Bots, Scrapers & AI Automation — Python / AI Developer
 2026
-  • Built an autonomous AI lead manager: channel monitoring, relevance filtering, qualification dialogue, 153 automated tests
-  • Implemented anti-bot scrapers (Playwright, Camoufox, Scrapling) and instant full-text search bases over thousands of documents (SQLite FTS5)
-  • Built voice bots and media pipelines: speech recognition (faster-whisper), TTS voiceovers, and automated FFmpeg editing with subtitles
-  Python, FastAPI, Telegram Bot API, Playwright, SQLite FTS5, FFmpeg
+  • Built an autonomous AI lead manager: channel monitoring, relevance filtering, qualification dialogue, 150+ automated tests
+  • Implemented scrapers for complex websites and instant search bases over thousands of documents
+  • Built voice bots and media pipelines: speech transcription, voiceovers, and batch editing with subtitles
+  Python, FastAPI, Telegram Bot API, SQL, REST API
 
 Payment Gateways & Infrastructure — Backend Developer
 2026
-  • Built a FastAPI gateway backend with user dashboard, TOTP 2FA, API keys, balance accounting, and payment webhooks (HMAC-SHA256)
-  • Configured resilient server infrastructure with ~30s auto-recovery and prompt-injection protection for AI assistants
-  FastAPI, httpx, SQLite WAL, HMAC-SHA256, TOTP, SSH
+  • Built a payment backend with user dashboard, 2FA, API keys, balance accounting, and webhook verification
+  • Configured resilient server infrastructure with ~30s auto-recovery and protection for AI assistants
+  Python, FastAPI, SQL, REST API, Linux
