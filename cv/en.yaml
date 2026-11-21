@@ -56,10 +56,10 @@ services:
     text: AI assistant that answers strictly from your internal docs, SOPs, and chat
       history without hallucinating.
     proof: Full-text and semantic search powered by SQLite FTS5 and embeddings.
-  - title: Speech, Voice & Video Pipelines
-    text: Audio/video transcription, voice-enabled Telegram bots, and automated
-      short-form video editing (silence removal, subtitles, zoom, audio mixing).
-    proof: Local processing via faster-whisper and FFmpeg with minimal API cost.
+  - title: Transcription & Voice Bots
+    text: Accurate speech-to-text for meetings, video lessons, and voice messages
+      with timestamps, plus voice bot flows and Gemini TTS voiceovers.
+    proof: Transcription runs locally on faster-whisper with zero per-minute API fees.
 achievements:
   - "Web platforms & storefronts end to end: Next.js & Astro apps (18 frontend
     pages, 16 API routes, responsive UI, EN/RU)"
